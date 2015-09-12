@@ -1,8 +1,7 @@
 ---
 galaxy_info:
-  author: your name
-  description: 
-  company: your company (optional)
+  author: Tomotaka Sakuma
+  description: role for puppet
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
   # issue_tracker_url: http://example.com/issue/tracker
@@ -13,15 +12,15 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: license (GPLv2, CC-BY, etc)
+  license: MIT
   min_ansible_version: 1.2
   #
   # Below are all platforms currently available. Just uncomment
   # the ones that apply to your role. If you don't see your 
   # platform on this list, let us know and we'll get it added!
   #
-  #platforms:
-  #- name: EL
+  platforms:
+  - name: EL
   #  versions:
   #  - all
   #  - 5
@@ -31,7 +30,7 @@ galaxy_info:
   #  versions:
   #  - all
   #  - any
-  #- name: Fedora
+  - name: Fedora
   #  versions:
   #  - all
   #  - 16
@@ -117,7 +116,7 @@ galaxy_info:
   # Below are all categories currently available. Just as with
   # the platforms above, uncomment those that apply to your role.
   #
-  #categories:
+  categories:
   #- cloud
   #- cloud:ec2
   #- cloud:gce
@@ -129,8 +128,8 @@ galaxy_info:
   #- development
   #- monitoring
   #- networking
-  #- packaging
-  #- system
+  - packaging
+  - system
   #- web
 dependencies: []
   # List your role dependencies here, one per line.
